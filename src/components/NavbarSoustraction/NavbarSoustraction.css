@@ -1,0 +1,68 @@
+.navbarSousStyle {
+    width: 100vw;
+    height: 4vw;
+    background-color: #00d8d4d8;
+    border-style: solid none none none;
+border-color: rgba(127, 255, 212, 0.418);
+border-width: 1vw;
+    padding-top: 5vh;
+    text-align: center;
+    vertical-align: center;
+
+    z-index: 1;
+}
+
+.navLinkSoustyle {
+    height: 5vh;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 0vw 1vw;
+    margin: 2px
+}
+
+.navLinkSoustyle:hover {
+    font-weight: bolder;
+    border: solid 5px #14a5a3;
+    border-radius: 25px;
+}
+
+.selectedSous {
+
+    font-weight: bolder;
+    border: solid 5px#14a5a3;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 360px)and (max-width: 740px) {
+    .navbarSousStyle {
+        font-size: 80%;
+        padding-top: 5vh;
+        height: auto;
+        padding: 0;
+    }
+
+    .navLinkSoustyle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 740px)and (max-width: 850px) {
+    .navbarSousStyle {
+        font-size: 100%;
+        padding-top: 5vh;
+        height: auto;
+        padding: 0;
+    }
+
+    .navLinkSoustyle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 4vw;
+    }
+}

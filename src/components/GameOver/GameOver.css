@@ -1,0 +1,14 @@
+.gameOverContainer{
+    color: white;
+    height: 29vw;
+    width: 29vw;
+   background-color:rgba(215, 218, 32, 0.699);
+   border-radius: 15vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.6vw;
+
+}

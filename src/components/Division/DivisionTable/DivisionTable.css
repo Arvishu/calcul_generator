@@ -1,0 +1,180 @@
+.divisionContainer {
+    color: white;
+    height: 29vw;
+    width: 29vw;
+    background-image: url('../../../ressources/mur maya ombre.svg');
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.6vw;
+
+}
+
+.titleDivisionContainer {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.incrementDivision {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+.tableDivision{
+    width:3vw;
+}
+.formDivisionContainerOne {
+    width: auto;
+    height: auto;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0vw auto;
+    display: grid;
+
+
+}
+
+
+
+.formDivisionContainerTwo {
+    width: 10vw;
+
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto auto;
+    display: grid;
+
+
+}
+
+.calculDivisionContainer {
+    font-size: 2vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.buttonDivisionContainer {
+    display: inline;
+}
+
+.buttonPlusDivision {
+    width: 5vw;
+    height: 2vw;
+    background-image: url('../../../ressources/oeilplus.svg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+
+.buttonPlusDivision:active {
+    background-image: url('../../../ressources/oeilplusombre.svg');
+
+
+}
+
+.buttonMoinsDivision {
+    width: 5vw;
+    height: 2vw;
+    background-image: url('../../../ressources/oeilmoins.svg');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+
+.buttonMoinsDivision:active {
+    background-image: url('../../../ressources/oeilmoinsombre.svg');
+
+}
+
+.operationDivisionButton {
+    background-size: cover;
+    width: 5vw;
+    height: 5vw;
+    background-image: url('../../../ressources/patejaguarshadow.svg');
+    background-position: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+
+.operationDivisionButton:active {
+    background-image: url('../../../ressources/patejaguarnoshadow.svg');
+}
+
+.inputDivisionStyle {
+    background-color: rgba(218, 165, 32, 0.61);
+    font-size: 2vw;
+    width: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    border-color: goldenrod;
+    border-width: 5px;
+}
+
+@media only screen and (min-width:321px) and (max-width:800px) {
+
+    .DivisionContainer {
+        color: rgb(206, 6, 6);
+        height: 80vw;
+        width: 80vw;
+        background-image: url('../../../ressources/mur maya ombre.svg');
+        background-size: cover;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 5vw;
+
+    }
+
+    .operationDivisionButton {
+
+        width: 10vw;
+        height: 10vw;
+        background-size: cover;
+        background-image: url('../../../ressources/patejaguarshadow.svg');
+        background-position: center;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+    }
+
+    .operationDivisionButton:active {
+        background-image: url('../../../ressources/patejaguarnoshadow.svg');
+    }
+
+    .inputDivisionStyle {
+        background-color: rgba(218, 165, 32, 0.61);
+        font-size: 2vw;
+        width: 10vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        border-radius: 15px;
+        border-color: goldenrod;
+        border-width: 5px;
+    }
+}

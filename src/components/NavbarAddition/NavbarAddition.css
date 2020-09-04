@@ -1,0 +1,68 @@
+.navbarAddStyle {
+    width: 100vw;
+    height: 4vw;
+    background-color: #05c46bda;
+    border-style: solid none none none;
+border-color: rgba(157, 255, 127, 0.418);
+border-width: 1vw;
+    padding-top: 5vh;
+    text-align: center;
+    vertical-align: center;
+
+    z-index: 1;
+}
+
+.navLinkAddStyle {
+    height: 5vh;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 0vw 1vw;
+    margin: 2px
+}
+
+.navLinkAddStyle:hover {
+    font-weight: bolder;
+    border: solid 5px #01ff88;
+    border-radius: 25px;
+}
+
+.selectedAdd {
+
+    font-weight: bolder;
+    border: solid 5px #01ff88;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 360px)and (max-width: 740px) {
+    .navbarAddStyle {
+        font-size: 80%;
+        padding-top: 5vh;
+        height: auto;
+        padding: 0;
+    }
+
+    .navLinkAddStyle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 740px)and (max-width: 850px) {
+    .navbarAddStyle {
+        font-size: 100%;
+        padding-top: 5vh;
+        height: auto;
+        padding: 0;
+    }
+
+    .navLinkAddStyle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 4vw;
+    }
+}
