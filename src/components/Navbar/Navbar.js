@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, NavLink, Switch } from "react-router-dom";
 import './Navbar.css';
-import logo from './../../ressources/panneau_anim.gif';
+import logo from './../../ressources/panneau_home.svg';
 
 
 
@@ -18,7 +18,11 @@ export default function Navbar() {
         <>
             
             <div className='navbarStyle'>
-            <NavLink className="home" to='/home'><img src={logo} alt="logo" /></NavLink>
+            <NavLink className="home" to='/home'>
+
+                <img src={logo} alt="logo" />
+                
+                </NavLink>
 
 <div></div>
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/addition'>Addition</NavLink>
