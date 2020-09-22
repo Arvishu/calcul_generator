@@ -14,7 +14,7 @@
 }
 
 .titleContainer {
-    margin-top: 2vw;
+    margin-top: 6vw;
     margin-bottom: 0px;
     text-align: center;
     display: flex;
@@ -50,8 +50,8 @@
 }
 
 .operationButton {
-    width: 5vw;
-    height: 5vw;
+    width: 7vw;
+    height: 7vw;
     background-image: url('../../ressources/patejaguarshadow.svg');
     background-position: center;
     cursor: pointer;
@@ -75,7 +75,7 @@
     border-color: goldenrod;
     border-width: 5px;
 }
-@media only screen and (min-width:321px) and (max-width:800px) {
+@media only screen and (min-width:321px) and (max-width:740px) {
     .operationContainer {
       
         height: 90vw;
@@ -85,7 +85,7 @@
 
     }
     .titleContainer {
-        margin-top: 50px;
+        margin-top: 18vw;
        
     
     }

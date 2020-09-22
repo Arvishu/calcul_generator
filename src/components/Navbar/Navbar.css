@@ -1,5 +1,5 @@
 .home {
-   
+
     -webkit-animation: Boing 3s;
     -moz-animation: Boing 3s;
     -o-animation: Boing 3s;
@@ -8,7 +8,7 @@
 }
 
 
-.home :focus{
+.home :focus {
     -webkit-animation: Boing 3s;
     -moz-animation: Boing 3s;
     -o-animation: Boing 3s;
@@ -16,8 +16,8 @@
 
 }
 
-.logoNavBar{
-    width:10vw;
+.logoNavBar {
+    width: 10vw;
 }
 
 
@@ -75,17 +75,20 @@
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
 }
+
 @keyframes Boing {
     0% {
         opacity: 0;
@@ -140,11 +143,13 @@
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
@@ -207,11 +212,13 @@
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
@@ -276,11 +283,13 @@
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(0deg);
     }
+
     90% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(15deg);
     }
+
     100% {
         opacity: 1;
         transform-origin: 50% 0%;
@@ -411,48 +420,47 @@
     }
 }
 
-@media screen and (min-width: 300px)and (max-width: 740px) {
+@media screen and (min-width: 321px)and (max-width: 740px) {
     .navLinkStyle {
         width: 50%;
-       
-       
         align-items: center;
         justify-content: center;
         font-size: 4vw;
 
     }
-    .logoNavBar{
-        position:relative;
-        width:20vw;
+
+    .logoNavBar {
+        position: relative;
+        width: 20vw;
     }
 
     .navbarStyle {
-       
+
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-      grid-gap:2px;
-    grid-auto-rows: minmax(auto, auto);
+        grid-gap: 2px;
+        grid-auto-rows: minmax(auto, auto);
         background-color: #0be88193;
-        
+
         text-align: center;
         vertical-align: center;
         font-size: 4vw;
         z-index: 1;
     }
 
-.logoNavBar{
-    width:40vw;
-}
+    .logoNavBar {
+        width: 40vw;
+    }
 
 
     .selected {
         font-size: 5vw;
-        
+
     }
 
     .navLinkStyle:hover {
         font-size: 4vw;
-     
+
         color: white;
         border: solid 5px #08d374;
         border-radius: 25px;
@@ -466,6 +474,3 @@
     }
 
 }
-
-
-
