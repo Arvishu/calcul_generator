@@ -75,7 +75,7 @@
     border-color: goldenrod;
     border-width: 5px;
 }
-@media only screen and (min-width:321px) and (max-width:740px) {
+@media only screen and (min-width:321px) and (max-width:800px) {
     .operationContainer {
       
         height: 90vw;
