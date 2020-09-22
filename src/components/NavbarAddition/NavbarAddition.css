@@ -34,10 +34,12 @@ border-width: 1vw;
     border-radius: 25px;
 }
 
-@media screen and (min-width: 360px)and (max-width: 740px) {
+
+
+@media screen and (min-width: 321px)and (max-width: 740px) {
     .navbarAddStyle {
-        font-size: 80%;
-        padding-top: 5vh;
+        font-size: 4vw;
+        
         height: auto;
         padding: 0;
     }
@@ -46,23 +48,7 @@ border-width: 1vw;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 70%;
-    }
-}
-
-@media screen and (min-width: 740px)and (max-width: 850px) {
-    .navbarAddStyle {
-        font-size: 100%;
-        padding-top: 5vh;
-        height: auto;
-        padding: 0;
-    }
-
-    .navLinkAddStyle {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 50%;
+        width: 60vw;
         height: 4vw;
     }
 }

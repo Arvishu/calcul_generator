@@ -16,20 +16,22 @@ import AudioPlayer from './../AudioPlayer/AudioPlayer.js';
 export default function Navbar() {
     return (
         <>
-            
-            <div className='navbarStyle'>
-            <NavLink className="home" to='/home'>
 
-                <img src={logo} alt="logo" />
-                
+            <div className='navbarStyle'>
+
+
+
+                <NavLink className="home" to='/home'>
+
+                    <img src={logo} alt="logo" className="logoNavBar"/>
+
                 </NavLink>
 
-<div></div>
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/addition'>Addition</NavLink>
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/soustraction'>Soustraction</NavLink>
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/multiplication'>Multiplication</NavLink>
                 <NavLink className='navLinkStyle' activeClassName="selected" to='/division'>Division</NavLink>
-                <AudioPlayer className='navbarStyle' />
+                <AudioPlayer />
             </div>
 
             <Switch>

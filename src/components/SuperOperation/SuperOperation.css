@@ -14,7 +14,7 @@
 }
 
 .titleContainer {
-    margin-top: 91px;
+    margin-top: 2vw;
     margin-bottom: 0px;
     text-align: center;
     display: flex;
@@ -75,3 +75,47 @@
     border-color: goldenrod;
     border-width: 5px;
 }
+@media only screen and (min-width:321px) and (max-width:800px) {
+    .operationContainer {
+      
+        height: 90vw;
+        width: 90vw;
+      
+        font-size: 5vw;
+
+    }
+    .titleContainer {
+        margin-top: 50px;
+       
+    
+    }
+    .operationButton {
+
+        width: 20vw;
+        height: 20vw;
+        background-size: cover;
+        background-image: url('../../ressources/patejaguarshadow.svg');
+        background-position: center;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        border-style: none;
+    }
+
+    .calculContainer {
+        font-size: 6vw;
+        
+    }
+    .inputStyle {
+        font-size: 6vw;
+        width: 18vw;
+        height:8vw;
+    }
+    .operationButton {
+       
+        width:20vw;
+        height:20vw;
+      
+    }
+}
+
+
