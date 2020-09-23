@@ -1,6 +1,5 @@
 import React from 'react';
 
-import DivisionTable from './../Division/DivisionTable/DivisionTable.js'
 
 import './GameOver.css';
 
@@ -58,6 +57,15 @@ return(
  
 <p> "EXPLORATEUR" ayant decouvert de nombreux Artefacts légendaires et sauvé le monde plusieurs fois.</p>
 </div>)
+else
+  return(
+    <div>
+    <p>Ton score est de  {score}  points.</p>
+    <h3>Niveau :"l'élève dépasse le Maitre "<br/>Statut:"futur(e) explorateur ou exploratrice de Légende" </h3>
+   
+  <p> "EXPLORATEUR" ayant decouvert de nombreux Artefacts légendaires et sauvé le monde plusieurs fois.</p>
+  </div>)
+
           
             
     }
