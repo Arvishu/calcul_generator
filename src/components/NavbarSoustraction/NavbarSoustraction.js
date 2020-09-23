@@ -23,7 +23,7 @@ function NavbarSoustraction() {
 
             <Switch>
                 <Route exact path={path}>
-                    <h3>Choisissez un type de soustraction</h3>
+                    <h3 className="navbarSousTitle">Choisissez un type de soustraction</h3>
                 </Route>
                 <Route path={`${url}/soustractiontoten`}><SoustractionToTen /></Route>
                 <Route path={`${url}/soustractiontohundred`}><SoustractionToHundred /></Route>

@@ -19,9 +19,18 @@ border-width: 1vw;
     text-decoration: none;
     padding:  0vw 1vw;
     margin:2px
-  
     
 }
+.navbarMultiTitle{
+    font-size: 1.5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:green;
+}
+
+
 .navLinkMultiStyle:hover{
     font-weight: bolder;
     border: solid 5px #ffc048;
@@ -47,19 +56,11 @@ border-width: 1vw;
     justify-content: center;
     width:70%;
   }
+
+
+
+  .navbarMultiTitle{
+    font-size: 3vw;
+   
 }
-@media screen and (min-width: 740px)and (max-width: 850px) {
-    .navbarMultiStyle{
-        font-size: 100%;
-        padding-top: 5vh;
-        height:auto;
-        padding: 0;
-    }
-   .navLinkMultiStyle{
-       display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width:50%;
-    height:4vw;
-  }
 }

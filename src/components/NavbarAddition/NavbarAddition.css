@@ -11,6 +11,14 @@ border-width: 1vw;
 
     z-index: 1;
 }
+.navbarAddTitle{
+    font-size: 1.5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:green;
+}
 
 .navLinkAddStyle {
     height: 5vh;
@@ -50,5 +58,8 @@ border-width: 1vw;
         justify-content: center;
         width: 60vw;
         height: 4vw;
+    }
+    .navbarAddTitle{
+        font-size: 3vw;
     }
 }

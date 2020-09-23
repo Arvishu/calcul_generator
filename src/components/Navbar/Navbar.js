@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, NavLink, Switch } from "react-router-dom";
 import './Navbar.css';
-import logo from './../../ressources/panneau_home.svg';
+import logo from './../../ressources/panneauHome.svg';
 
 
 
@@ -35,6 +35,7 @@ export default function Navbar() {
             </div>
 
             <Switch>
+            <Route exact path="/" ><Home /></Route>
                 <Route exact path="/home" ><Home /></Route>
                 <Route path="/addition" ><NavbarAddition /></Route>
                 <Route path="/soustraction" ><NavbarSoustraction /></Route>

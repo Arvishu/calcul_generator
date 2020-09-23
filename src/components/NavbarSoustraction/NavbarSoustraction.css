@@ -11,6 +11,14 @@ border-width: 1vw;
 
     z-index: 1;
 }
+.navbarSousTitle{
+    font-size: 1.5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:green;
+}
 
 .navLinkSoustyle {
     height: 5vh;
@@ -48,6 +56,10 @@ border-width: 1vw;
         justify-content: center;
         width: 60vw;
         height: 4vw;
+    }
+    .navbarSousTitle{
+        font-size: 3vw;
+        
     }
 }
 

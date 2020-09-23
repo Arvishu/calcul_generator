@@ -29,7 +29,7 @@ function NavbarAddition() {
 
             <Switch>
                 <Route exact path={path}>
-                    <h3>Choisissez un type d'addition</h3>
+                    <h3 className="navbarAddTitle">Choisissez un type d'addition</h3>
                 </Route>
                 <Route path={`${url}/additiontoten`}><AdditionToTen/></Route>
 

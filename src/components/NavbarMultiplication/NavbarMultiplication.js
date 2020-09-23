@@ -24,7 +24,7 @@ function NavbarMultiplication() {
 
             <Switch>
                 <Route exact path={path}>
-                    <h3>Choisissez une table de multiplication</h3>
+                    <h3 className="navbarMultiTitle">Choisissez une table de multiplication</h3>
                 </Route>
                 <Route path={`${url}/multiplicationtable`}><MultiplicationTable /></Route>
                 <Route path={`${url}/multiplicationtoten`}><MultiplicationToTen /></Route>

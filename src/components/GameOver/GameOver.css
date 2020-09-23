@@ -1,9 +1,9 @@
 .gameOverContainer{
     color: white;
     height: 29vw;
-    width: 29vw;
+    width: 100vw;
    background-color:rgba(215, 218, 32, 0.699);
-   border-radius: 15vw;
+   border-radius: 1000px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -13,7 +13,7 @@
 
 }
 
-@media only screen and (min-width:321px) and (max-width:800px) {
+@media only screen and (min-width:321px) and (max-width:740px) {
     .gameOverContainer{
         
         height: 90vw;
