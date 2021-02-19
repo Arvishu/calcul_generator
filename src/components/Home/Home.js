@@ -5,7 +5,7 @@ function Home () {
     return(
         <div className = "homeContainer">
             <div>
-                <h1>Bienvenue dans la jungle des opérations</h1>
+                <h1>Bienvenu dans la jungle des opérations</h1>
 
                 <p>Les plus grands aventuriers sont venus apprendre à compter dans notre territoire.</p>
                 <p>Sélectionne une opération et relève le défi des jaguars. </p>
